@@ -1,0 +1,54 @@
+body {
+background: teal;
+  border-style: solid;
+  Border-color: white;
+  border-width: medium;
+  margin:30px;
+  padding: 1em;
+  text-align: center;
+  line-height: 1em;
+}
+h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+}
+h2 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  text-align:center;
+}
+h3{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  animation: rotation 10s infinite linear;
+  float: left;
+}
+
+.right {
+  animation: rotation 10s infinite linear;
+  float: right;
+}
+
+p {
+color: white;
+}

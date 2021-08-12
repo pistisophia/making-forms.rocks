@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+
+html,
+body {
+    background: #cccccc;
+    padding: 20px;
+}
+
+.header {
+    /* position: fixed; */
+}
+
+.shape-poster {
+  width: 556px;
+	height: 800px;
+	margin: 0 auto;
+	background: yellow;
+	position: relative;
+}
+
+
+.festival-poster{
+  width: 556px;
+	height: 800px;
+	margin: 0 auto;
+	position: relative;
+}
+
+img {
+  width: 556px;
+	margin: 0 auto;
+	background: white;
+  margin-top: 30px;
+}
+
+/* IMPORTANT: all poster elements must include the "position: absolute;" */
+
+#circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+  }
+
+
+
+    /* left: 50px;
+    top: 100px; */
+
+    /* optional: try CSS Gradients: https://www.css-gradient.com/ */
+
+    /* optional: try CSS dropshadows: https://getcssscan.com/css-box-shadow-examples */
+
+}
